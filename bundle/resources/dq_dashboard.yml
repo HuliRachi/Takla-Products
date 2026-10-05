@@ -1,0 +1,11 @@
+resources:
+  dashboards:
+    taklaproducts_dq_dashboard:
+      display_name: "taklaproducts DQ Dashboard"
+      
+      file_path: ../../monitoring/dq_dashboard.lvdash.json
+
+      warehouse_id: ${var.taklaproducts_warehouse_id}
+
+      dataset_catalog: ${var.taklaproducts_catalog}
+      dataset_schema: taklaproducts

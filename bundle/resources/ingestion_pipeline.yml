@@ -1,0 +1,20 @@
+resources:
+  pipelines:
+    taklaproducts_ingestion_pipeline:
+      name: taklaproducts-ingestion-pipeline
+      serverless: true
+      allow_duplicate_names: true
+      tags:
+        environment: ${bundle.target}
+ 
+      root_path: ${workspace.file_path}/pipelines/ingestion_pipeline
+ 
+      catalog: ${var.taklaproducts_catalog}
+      schema: taklaproducts
+ 
+      configuration:
+        taklaproducts.catalog: ${var.taklaproducts_catalog}
+ 
+      libraries:
+        - glob:
+            include: ../../pipelines/ingestion_pipeline/transformations/**
