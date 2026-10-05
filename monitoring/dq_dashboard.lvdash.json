@@ -1,0 +1,225 @@
+{
+  "datasets": [
+    {
+      "name": "75a7638e",
+      "displayName": "Expectations",
+      "queryLines": [
+        "SELECT * FROM dq_expectations_history;"
+      ],
+      "catalog": "dev",
+      "schema": "taklaproducts"
+    },
+    {
+      "name": "cc8b5b11",
+      "displayName": "Quarantine",
+      "queryLines": [
+        "SELECT * FROM dq_quarantine_counts;"
+      ],
+      "catalog": "dev",
+      "schema": "taklaproducts"
+    },
+    {
+      "name": "18824657",
+      "displayName": "Orphans",
+      "queryLines": [
+        "SELECT * FROM dq_referential_integrity;"
+      ],
+      "catalog": "dev",
+      "schema": "taklaproducts"
+    }
+  ],
+  "pages": [
+    {
+      "name": "b8a5026f",
+      "displayName": "Expectations",
+      "layout": [
+        {
+          "widget": {
+            "name": "f5f414da",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "75a7638e",
+                  "fields": [
+                    {
+                      "name": "failed_records",
+                      "expression": "`failed_records`"
+                    },
+                    {
+                      "name": "failure_rate_pct",
+                      "expression": "`failure_rate_pct`"
+                    },
+                    {
+                      "name": "passed_records",
+                      "expression": "`passed_records`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "failed_records"
+                  },
+                  {
+                    "fieldName": "failure_rate_pct"
+                  },
+                  {
+                    "fieldName": "passed_records"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 2,
+            "y": 0,
+            "width": 6,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "6b656550",
+      "displayName": "Quarantine",
+      "layout": [
+        {
+          "widget": {
+            "name": "b4adcd5a",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "cc8b5b11",
+                  "fields": [
+                    {
+                      "name": "quarantined_count",
+                      "expression": "`quarantined_count`"
+                    },
+                    {
+                      "name": "source",
+                      "expression": "`source`"
+                    },
+                    {
+                      "name": "checked_at",
+                      "expression": "`checked_at`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "quarantined_count"
+                  },
+                  {
+                    "fieldName": "source"
+                  },
+                  {
+                    "fieldName": "checked_at"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 0,
+            "width": 6,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "531db15a",
+      "displayName": "Orphans",
+      "layout": [
+        {
+          "widget": {
+            "name": "773a0af4",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "18824657",
+                  "fields": [
+                    {
+                      "name": "orphaned_count",
+                      "expression": "`orphaned_count`"
+                    },
+                    {
+                      "name": "relationship",
+                      "expression": "`relationship`"
+                    },
+                    {
+                      "name": "checked_at",
+                      "expression": "`checked_at`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "orphaned_count"
+                  },
+                  {
+                    "fieldName": "relationship"
+                  },
+                  {
+                    "fieldName": "checked_at"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 0,
+            "width": 6,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    },
+    "applyModeEnabled": false
+  }
+}
