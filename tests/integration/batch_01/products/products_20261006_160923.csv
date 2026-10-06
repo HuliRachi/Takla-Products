@@ -1,0 +1,21 @@
+product_id,sku,name,category,weight_kg,price_usd
+4273737d-7bfe-430d-ab62-7d27df431c2e,SK-FR-LIG-101,Front-Runner Lighting Component v1,Lighting,34.42,559.29
+2d562e76-c0ab-4efb-af03-9cba310f0675,SK-FR-CAM-102,Front-Runner Camping Component v2,Camping,30.51,222.45
+385b4c34-0cd2-411e-8135-5254fa475573,SK-FR-ROO-103,Front-Runner Roof Racks Component v3,Roof Racks,14.16,250.43
+0766d9fe-7b1f-4821-8e29-82ee2564a04b,SK-FR-CAM-104,Front-Runner Camping Component v4,Camping,35.99,488.29
+65b0e94f-ef6f-4b11-b78c-6041636d6bf2,SK-FR-ROO-105,Front-Runner Roof Racks Component v5,Roof Racks,18.71,113.23
+ae0d464c-7c62-447b-a7c8-5df175d3f94e,SK-FR-LIG-106,Front-Runner Lighting Component v6,Lighting,26.08,592.14
+74a56c68-5feb-4c31-863f-426de01f1933,SK-FR-LIG-107,Front-Runner Lighting Component v7,Lighting,28.67,362.56
+449efffe-7252-4178-a751-9990a3f2747a,SK-FR-CAM-108,Front-Runner Camping Component v8,Camping,20.67,598.08
+a8f15f92-f5f7-4e27-aa13-654ebe25d473,SK-FR-LIG-109,Front-Runner Lighting Component v9,Lighting,4.6,255.42
+3f37541f-7bd2-4029-b9d4-ca1e434f3fbe,SK-FR-CAM-110,Front-Runner Camping Component v10,Camping,26.02,160.44
+5c8b95ec-2eb7-4424-869c-36546db67dd5,SK-FR-CAM-111,Front-Runner Camping Component v11,Camping,4.14,404.41
+08b2a368-f1aa-4fc8-b636-9dc0e82dc594,SK-FR-ROO-112,Front-Runner Roof Racks Component v12,Roof Racks,20.74,757.95
+b1d4f693-af66-4427-b4c4-6f70f9ba9272,SK-FR-ROO-113,Front-Runner Roof Racks Component v13,Roof Racks,36.55,388.05
+eeb62c98-018c-44a4-b1b4-6bb5de03071e,SK-FR-STO-114,Front-Runner Storage Component v14,Storage,13.02,912.32
+6806973f-f455-4335-941c-ffbac1a756ee,SK-FR-BRA-115,Front-Runner Brackets Component v15,Brackets,35.5,491.37
+bb19b443-7d0c-4050-8638-998f690eb78f,SK-FR-LIG-116,Front-Runner Lighting Component v16,Lighting,13.87,283.46
+b05115e8-03d7-47b3-a2d1-941e0d8adb77,SK-FR-STO-117,Front-Runner Storage Component v17,Storage,22.05,774.15
+9eea9421-db14-42fc-b7b5-170d309ba440,SK-FR-ROO-118,Front-Runner Roof Racks Component v18,Roof Racks,3.34,234.45
+020cd7c8-034f-47b2-aec6-eb55da08c14d,SK-FR-CAM-119,Front-Runner Camping Component v19,Camping,27.97,829.3
+d103d961-e0b4-469e-b4e8-b9b2e8fb23c7,SK-FR-CAM-120,Front-Runner Camping Component v20,Camping,38.88,780.79
