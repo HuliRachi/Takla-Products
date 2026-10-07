@@ -8,11 +8,9 @@ from datetime import datetime, timedelta
 # --- BATCH RUN TIMESTAMP FOR UNIQUE FILE NAMES ---
 run_suffix = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-# --- UPDATE BASE DIR TO BATCH_01 ---
 OUTPUT_DIR = "batch_01"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Define explicit subfolder paths (ORDER_ITEMS REMOVED)
 PATHS = {
     "products": os.path.join(OUTPUT_DIR, "products"),
     "customers_cdc": os.path.join(OUTPUT_DIR, "customers_cdc"),
