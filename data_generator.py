@@ -5,7 +5,6 @@ import random
 import uuid
 from datetime import datetime, timedelta
 
-# --- BATCH RUN TIMESTAMP FOR UNIQUE FILE NAMES ---
 run_suffix = datetime.now().strftime("%Y%m%d_%H%M%S")
 
 OUTPUT_DIR = "batch_01"
