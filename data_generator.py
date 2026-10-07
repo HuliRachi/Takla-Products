@@ -16,7 +16,6 @@ PATHS = {
     "clickstream": os.path.join(OUTPUT_DIR, "clickstream"),
 }
 
-# Create all individual subdirectories safely
 for folder_path in PATHS.values():
     os.makedirs(folder_path, exist_ok=True)
 
