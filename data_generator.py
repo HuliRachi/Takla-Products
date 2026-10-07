@@ -5,7 +5,6 @@ import random
 import uuid
 from datetime import datetime, timedelta
 
-# --- BATCH RUN TIMESTAMP FOR UNIQUE FILE NAMES ---
 run_suffix = datetime.now().strftime("%Y%m%d_%H%M%S")
 
 OUTPUT_DIR = "batch_01"
@@ -17,7 +16,6 @@ PATHS = {
     "clickstream": os.path.join(OUTPUT_DIR, "clickstream"),
 }
 
-# Create all individual subdirectories safely
 for folder_path in PATHS.values():
     os.makedirs(folder_path, exist_ok=True)
 
