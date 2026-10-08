@@ -21,7 +21,6 @@ for folder_path in PATHS.values():
 
 print("Simulating realistic Front-Runner SA ecosystem data for Databricks...")
 
-# --- 1. CONFIGURATION TARGETS ---
 TOTAL_PRODUCTS = 20
 TOTAL_CUSTOMERS = 15
 TOTAL_EVENTS = 55 
