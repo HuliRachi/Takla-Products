@@ -44,7 +44,6 @@ for i in range(1, TOTAL_PRODUCTS + 1):
 
 customer_pool = [str(uuid.uuid4()) for _ in range(TOTAL_CUSTOMERS)]
 
-# --- WRITE PRODUCTS TO PRODUCTS FOLDER (WITH SUFFIX) ---
 products_file = os.path.join(PATHS["products"], f"products_{run_suffix}.csv")
 with open(products_file, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["product_id", "sku", "name", "category", "weight_kg", "price_usd"])
